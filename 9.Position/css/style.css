@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+ .d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.fashion .left{
+    width:  49.8%;
+    background-color: burlywood;
+    height: 100vh;
+    background-image: url("../img/leftbg.jpg");
+    background-size: cover;
+     position: relative; 
+ }  
+ .fashion .right{
+     width: 49.5%;
+     height: 100vh;
+ }
+   .fashion .left .text{
+      min-height: 40px;
+      width: 70%;
+      position: absolute;
+      top: 200px;
+      left: 40px;
+  } 
+  .fashion .right .box{
+      width: 49.4%; 
+      height: 49.4vh;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+  } 
+  .fashion .right .box .text {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+  }
+  .fashion .btn{
+      border: none; 
+  }
+   .line{
+      height: 0.18rem;
+      background-color: #CA1515;
+      width: 75px;
+      border: none;
+      margin-top: 0.2rem;
+  }
+  .fashion  p {
+      margin: 0.3rem 0 1rem  0;
+  }
